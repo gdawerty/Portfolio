@@ -1,13 +1,9 @@
 ---
-layout: home
 title: Welcome to my Portfolio
 ---
 
 ![My Logo](docs/assets/AaronLuu.JPG)
 
-{% for post in site.posts %}
-- [{{ post.title }}]({{ post.url }}) - {{ post.date | date: "%B %d, %Y" }}
-{% endfor %}
 
 ## Projects
 ### Project 1
