@@ -5,7 +5,7 @@ title: Welcome to my blog
 ## Projects
 ### Project 1
 - Description
-- links
+- [Github Repository](https://github.com/gdawerty)
 
 - ### Project 2
 - Description
