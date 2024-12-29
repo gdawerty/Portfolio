@@ -2,6 +2,8 @@
 title: Welcome to my blog
 ---
 
+![My Logo](docs/assets/AaronLuu.JPG)
+
 ## Projects
 ### Project 1
 - Description
