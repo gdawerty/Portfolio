@@ -4,10 +4,10 @@ title: Welcome to my Portfolio
 
 <link rel="stylesheet" href="/docs/assets/style.css">
 
-<div style="display: flex; align-items: center; gap: 20px;">
+<div style="display: flex; align-items: center; gap: 30px;">
 
   <div>
-    <img src="docs/assets/AaronLuu.JPG" alt="My Logo" style="max-width: 150px; border-radius: 50%;">
+    <img src="docs/assets/AaronLuu.JPG" alt="My Logo" style="max-width: 200px; border-radius: 75%;">
   </div>
 
   <div>
