@@ -2,6 +2,8 @@
 title: Welcome to my Portfolio
 ---
 
+<link rel="stylesheet" href="/docs/assets/style.css">
+
 <div style="display: flex; align-items: center; gap: 20px;">
 
   <div>
