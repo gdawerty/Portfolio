@@ -2,7 +2,7 @@
 title: Welcome to my Portfolio
 ---
 
-<link rel="stylesheet" href="/docs/assets/style.css">
+<link rel="stylesheet" href="docs/assets/style.css">
 
 <div class="flex-container">
   <div>
