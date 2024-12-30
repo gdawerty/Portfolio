@@ -2,9 +2,4 @@ theme: minima
 title: Aaron Luu's Portfolio
 description: My Portfolio
 author: Aaron Luu
-social_links:
-  - icon: "github"
-    url: "https://github.com/gdawerty"
-  - icon: "linkedin"
-    url: "https://www.linkedin.com/in/aaron-luu123/"
 
