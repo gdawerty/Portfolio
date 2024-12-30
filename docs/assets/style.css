@@ -1,20 +1,66 @@
+/* General Reset */
 body {
+    margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 20px;
+    background-color: #f9f9f9; /* Optional: Change background color */
 }
 
-img {
-    max-width: 150px;
-    border-radius: 50%;
-}
-
-div {
-    margin-bottom: 20px;
-}
-
+/* Flex Container for Layout */
 .flex-container {
     display: flex;
-    align-items: flex-start;
-    gap: 20px;
+    align-items: center;
+    justify-content: center; /* Centers the content horizontally */
+    gap: 30px; /* Space between the image and text */
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box; /* Ensures padding doesn't expand width */
+    background-color: #ffffff; /* Optional: Set background color for content */
+    border: 1px solid #ddd; /* Optional: Add border for better structure */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow */
+    margin: 20px auto; /* Centers container vertically */
+    max-width: 1200px; /* Keeps content readable on larger screens */
+}
+
+/* Image Styling */
+.profile-picture {
+    max-width: 200px;
+    border-radius: 75%; /* Makes the image round-ish */
+    border: 3px solid #007acc; /* Optional: Add a border to the image */
+}
+
+/* Heading Styles */
+h2 {
+    margin: 10px 0;
+    color: #333;
+    font-size: 1.5em;
+    text-transform: uppercase; /* Optional: Make headings uppercase */
+}
+
+/* Unordered List Styles */
+ul {
+    padding-left: 20px;
+    list-style-type: disc; /* Default bullet points */
+    color: #555; /* Optional: Change text color */
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+    .flex-container {
+        flex-direction: column; /* Stack image and text vertically */
+        align-items: center;
+        gap: 20px; /* Reduce gap for smaller screens */
+    }
+
+    .profile-picture {
+        max-width: 100px; /* Scale down image size */
+    }
+
+    h2 {
+        font-size: 1.2em; /* Adjust heading size */
+    }
+
+    ul {
+        padding-left: 10px; /* Reduce list padding */
+    }
 }
