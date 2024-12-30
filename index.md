@@ -2,12 +2,23 @@
 title: Welcome to my Portfolio
 ---
 
-![My Logo](docs/assets/AaronLuu.JPG)
+<div style="display: flex; align-items: center; gap: 20px;">
 
+  <div>
+    <img src="docs/assets/AaronLuu.JPG" alt="My Logo" style="max-width: 150px; border-radius: 50%;">
+  </div>
 
-# Education
-- Some university and major and possibly GPA
+  <div>
+    <h2>Education</h2>
+    <ul>
+      <li>Some university and major and possibly GPA</li>
+    </ul>
 
-# Work/Experience
-- TA
-- Research
+    <h2>Work/Experience</h2>
+    <ul>
+      <li>TA</li>
+      <li>Research</li>
+    </ul>
+  </div>
+
+</div>
