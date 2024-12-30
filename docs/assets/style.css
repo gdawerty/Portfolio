@@ -45,3 +45,7 @@ ul {
         max-width: 150px;
     }
 }
+
+.rss-subscribe {
+  display: none;
+}
