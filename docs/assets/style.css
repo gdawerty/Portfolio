@@ -49,3 +49,29 @@ ul {
 .rss-subscribe {
   display: none;
 }
+
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #007acc;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
