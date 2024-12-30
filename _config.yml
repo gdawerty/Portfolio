@@ -1,6 +1,10 @@
 theme: minima
 title: Aaron Luu's Portfolio
 description:
+  - icon: "github"
+    url: "https://github.com/gdawerty"
+  - icon: "linkedin"
+    url: "https://www.linkedin.com/in/aaronluu-123/"
 author:
 
-footer: "Connect with me on social media"
+footer: ""
