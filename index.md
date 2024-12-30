@@ -1,6 +1,4 @@
----
-title: Welcome to my Portfolio
----
+
 
 <link rel="stylesheet" href="docs/assets/style.css">
 
