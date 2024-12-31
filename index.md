@@ -4,7 +4,7 @@
 
 ## Education
 B.S., Computer Science | Georgia Institute of Technology (_2024 - 2026_)
-GPA: 3.8
+    GPA: 3.8
 
 ## Work/Experience
 **Research Assistant for VIP @ Georgia Tech, The Robot Collective (_August 2024 - Present_)**
