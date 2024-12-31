@@ -3,7 +3,7 @@
 #### Technical Skills: Python, Java, HTML, CSS, JavaScript, Git, Github
 
 ## Education
-B.S., Computer Science | Georgia Institute of Technology (_August 2024 - May 2026_)
+B.S., Computer Science | Georgia Institute of Technology (_2024 - 2026_)
 GPA: 3.8
 
 ## Work/Experience
