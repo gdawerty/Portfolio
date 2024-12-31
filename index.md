@@ -8,6 +8,7 @@ GPA: 3.8
 
 ## Work/Experience
 **Research Assistant for VIP @ Georgia Tech, The Robot Collective (_August 2024 - Present_)**
+
 [The Robot Collective](https://vip.gatech.edu/teams/vwn)
 - Developing a collective of robots that interact with each other to do everyday tasks using Docker and ROS.
 - Assembling a second robot with a multi-agent system and multi-robot path planning algorithm by implementing ROS Nodes and using A* Algorithms.
@@ -18,7 +19,7 @@ GPA: 3.8
 - Assisting in the understanding of  software engineering principles, such as the development process, testing, design patterns, and object-oriented design for student teams along with any help on web development projects and evaluations.
 
 ## Projects
-### SpotifyRoasted - Fall 2024
+**SpotifyRoasted - Fall 2024**
 [Github for SpotifyRoasted](https://github.com/gumpshroom/spotifyRoasted)
 - The goal of this project was to design and develop a Spotify Wrapper for ones Spotify account using Django and the Spotify wrapper API to show users a compilation of their listening activity and trends.
 - Features of this project included a built-in AI model that generates a description of a user's music trends and how they would act/think/dress.
