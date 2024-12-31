@@ -18,8 +18,26 @@ GPA: 3.8
 - Teaching Assistant for CS 2340, formally known as Objects and Design, a Computer Science project-based class taken as a core requirement for College of Computing majors.
 - Assisting in the understanding of  software engineering principles, such as the development process, testing, design patterns, and object-oriented design for student teams along with any help on web development projects and evaluations.
 
-## Projects
+## Recent Projects
+**AI Journaling Therapist HackGT - Fall 2024**
+
+[Github for AI Journal](https://github.com/Techo10n/shaz)
+- Full stack developer in a hackathon project creating a journaling app with AI-driven emotional and mood analysis.
+- Established a database for user data and integrated Google Authentication using Firebase.
+- Utilized TypeScript for website design, Flask for the GPT AI model, and GitHub for collaboration.
+
+**Atlanta Food Finder - Fall 2024**
+
+[Website](https://seal-pelican-2hpg.squarespace.com/config/)
+[Github for Food Finder](https://github.com/gumpshroom/FoodReview2340)
+- Full stack developer in a team project that created a website that locates restaurants in the Atlanta area using Google Maps API, Django framework and its built-in SQL database.
+- Utilized Git commands and Github to create the project, implementing front end design using HTML, CSS and JS.
+- Programmed in Python for the back end implementation to store data of users and restaurants.
+
+
 **SpotifyRoasted - Fall 2024**
+
+[Website](https://seal-pelican-2hpg.squarespace.com/config/)
 [Github for SpotifyRoasted](https://github.com/gumpshroom/spotifyRoasted)
 - The goal of this project was to design and develop a Spotify Wrapper for ones Spotify account using Django and the Spotify wrapper API to show users a compilation of their listening activity and trends.
 - Features of this project included a built-in AI model that generates a description of a user's music trends and how they would act/think/dress.
