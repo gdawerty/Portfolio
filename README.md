@@ -1,57 +1,7 @@
-<header>
+# Welcome!
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
+Hello there, and welcome to my portfolio repository. For those interested, my name is Aaron Luu. I’m currently studying computer science at Georgia Tech, specializing in AI and InfoNetwork threads. I have a strong interest in building things, especially when it comes to software and web development. Over the years, I’ve gained a lot of experience with Java, Python, Django, Git, and GitHub, along with a solid understanding of data structures and algorithms.
 
-# GitHub Pages
+I’m also involved in a research group that focuses on multi-robot interaction, where we use ROS and Python to develop better ways for robots to work together. On top of that, I’ve collaborated on projects that integrate code with hardware, using tools like Arduino, microcontrollers, and sensors to build functional products.
 
-_Create a site or blog from your GitHub repositories with GitHub Pages._
-
-</header>
-
-<!--
-  <<< Author notes: Finish >>>
-  Review what we learned, ask for feedback, provide next steps.
--->
-
-## Finish
-
-_Congratulations friend, you've completed this course!_
-
-<img src=https://octodex.github.com/images/constructocat2.jpg alt=celebrate width=300 align=right>
-
-Your blog is now live and has been deployed!
-
-Here's a recap of all the tasks you've accomplished in your repository:
-
-- You enabled GitHub Pages.
-- You selected a theme using the config file.
-- You learned about proper directory format and file naming conventions in Jekyll.
-- You created your first blog post with Jekyll!
-
-### What's next?
-
-- Keep working on your GitHub Pages site... we love seeing what you come up with!
-- We'd love to hear what you thought of this course [in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages).
-- [Take another GitHub Skills course](https://github.com/skills).
-- [Read the GitHub Getting Started docs](https://docs.github.com/en/get-started).
-- To find projects to contribute to, check out [GitHub Explore](https://github.com/explore).
-
-<footer>
-
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
-
----
-
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
-
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
-</footer>
+Outside of tech, I love staying active by working out, thrifting for unique finds, trying new foods, and exploring different places. But what really drives me is the opportunity to create things that can have a real-world impact and working with others to help make it happen. That’s where my true passion lies.
