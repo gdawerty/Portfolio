@@ -2,7 +2,7 @@ theme: jekyll-theme-minimal
 title: Aaron Luu's Portfolio
 description: ""
 author: ""
-logos: docs/assets/AaronLuu.JPG
+logo: docs/assets/AaronLuu.JPG
 show_downloads: true
 
 
