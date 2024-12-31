@@ -5,4 +5,13 @@
 - some stuff
 
 ### Projects
-- Some stuff
+
+---
+title: "SpotifyRoasted"
+date: 2024-10-28
+---
+
+- The goal of this project was to design and develop a Spotify Wrapper for ones Spotify account using Django and the Spotify wrapper API to show users a compilation of their listening activity and trends. Features of this project included a built-in AI model that generates a description of a user's music trends and how they would act/think/dress. Another feature was making this web application user friendly, having dark mode as an option, being able to share a user's spotify wrapped response on social media, hosting it online for people to use, and having a page to contact the developers!
+
+
+- [Github for SpotifyRoasted](https://github.com/gumpshroom/spotifyRoasted)
