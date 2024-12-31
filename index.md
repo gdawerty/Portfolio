@@ -29,6 +29,7 @@ GPA: 3.8
 **Atlanta Food Finder - Fall 2024**
 
 [Website](https://seal-pelican-2hpg.squarespace.com/config/)
+
 [Github for Food Finder](https://github.com/gumpshroom/FoodReview2340)
 - Full stack developer in a team project that created a website that locates restaurants in the Atlanta area using Google Maps API, Django framework and its built-in SQL database.
 - Utilized Git commands and Github to create the project, implementing front end design using HTML, CSS and JS.
@@ -38,6 +39,7 @@ GPA: 3.8
 **SpotifyRoasted - Fall 2024**
 
 [Website](https://seal-pelican-2hpg.squarespace.com/config/)
+
 [Github for SpotifyRoasted](https://github.com/gumpshroom/spotifyRoasted)
 - The goal of this project was to design and develop a Spotify Wrapper for ones Spotify account using Django and the Spotify wrapper API to show users a compilation of their listening activity and trends.
 - Features of this project included a built-in AI model that generates a description of a user's music trends and how they would act/think/dress.
