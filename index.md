@@ -35,6 +35,8 @@ Fall 2024
 
 **Atlanta Food Finder | Django, SQLite, HTML, CSS, JavaScript, Google Maps API, Pycharm**
 
+**AI Journaling Therapist HackGT | Next.JS, HTML, Tailwind CSS, Firebase, Flask, VS Code**
+
 Fall 2024
 
 [Website](https://seal-pelican-2hpg.squarespace.com/config/) | [Github for Food Finder](https://github.com/gumpshroom/FoodReview2340)
@@ -44,6 +46,8 @@ Fall 2024
 
 
 **SpotifyRoasted | Django, SQLite, HTML, CSS, JavaScript, Spotify API, Grok, Pycharm**
+
+**AI Journaling Therapist HackGT | Next.JS, HTML, Tailwind CSS, Firebase, Flask, VS Code**
 
 Fall 2024
 
