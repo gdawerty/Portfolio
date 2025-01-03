@@ -24,7 +24,7 @@
 - Assisting in the understanding of  software engineering principles, such as the development process, testing, design patterns, and object-oriented design for student teams along with any help on web development projects and evaluations.
 
 ## Recent Projects
-**AI Journaling Therapist HackGT | Next.JS, HTML, Tailwind CSS, Firebase, Flask, VS Code**
+**AI Journaling Therapist HackGT --- Next.JS, HTML, Tailwind CSS, Firebase, Flask, VS Code**
 
 Fall 2024
 
@@ -33,7 +33,7 @@ Fall 2024
 - Established a database for user data and integrated Google Authentication using Firebase.
 - Utilized TypeScript for website design, Flask for the GPT AI model, and GitHub for collaboration.
 
-**Atlanta Food Finder Django, SQLite, HTML, CSS, JavaScript, Google Maps API, Pycharm**
+**Atlanta Food Finder --- Django, SQLite, HTML, CSS, JavaScript, Google Maps API, Pycharm**
 
 Fall 2024
 
@@ -43,7 +43,7 @@ Fall 2024
 - Programmed in Python for the back end implementation to store data of users and restaurants.
 
 
-**SpotifyRoasted Django, SQLite, HTML, CSS, JavaScript, Spotify API, Grok, Pycharm**
+**SpotifyRoasted --- Django, SQLite, HTML, CSS, JavaScript, Spotify API, Grok, Pycharm**
 
 
 Fall 2024
