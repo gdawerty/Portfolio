@@ -35,7 +35,7 @@ Fall 2024
 
 **Atlanta Food Finder | Django, SQLite, HTML, CSS, JavaScript, Google Maps API, Pycharm**
 
-**AI Journaling Therapist HackGT | Next.JS, HTML, Tailwind CSS, Firebase, Flask, VS Code**
+**PAERT1**
 
 Fall 2024
 
@@ -47,7 +47,7 @@ Fall 2024
 
 **SpotifyRoasted | Django, SQLite, HTML, CSS, JavaScript, Spotify API, Grok, Pycharm**
 
-**AI Journaling Therapist HackGT | Next.JS, HTML, Tailwind CSS, Firebase, Flask, VS Code**
+**PART2**
 
 Fall 2024
 
