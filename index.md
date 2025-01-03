@@ -33,9 +33,7 @@ Fall 2024
 - Established a database for user data and integrated Google Authentication using Firebase.
 - Utilized TypeScript for website design, Flask for the GPT AI model, and GitHub for collaboration.
 
-**Atlanta Food Finder | Django, SQLite, HTML, CSS, JavaScript, Google Maps API, Pycharm**
-
-**PAERT1**
+**Atlanta Food Finder Django, SQLite, HTML, CSS, JavaScript, Google Maps API, Pycharm**
 
 Fall 2024
 
@@ -45,9 +43,8 @@ Fall 2024
 - Programmed in Python for the back end implementation to store data of users and restaurants.
 
 
-**SpotifyRoasted | Django, SQLite, HTML, CSS, JavaScript, Spotify API, Grok, Pycharm**
+**SpotifyRoasted Django, SQLite, HTML, CSS, JavaScript, Spotify API, Grok, Pycharm**
 
-**PART2**
 
 Fall 2024
 
