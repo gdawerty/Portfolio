@@ -3,8 +3,8 @@
 #### Technical Skills: Python, Java, HTML, CSS, JavaScript, Git
 
 ## Education
-* B.S. Computer Science | Georgia Institute of Technology
-* GPA: 3.8
+- B.S. Computer Science --- Georgia Institute of Technology
+- GPA: 3.8
 
 ## Work/Experience
 **Research Assistant for VIP @ Georgia Tech - The Robot Collective**
