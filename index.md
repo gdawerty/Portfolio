@@ -4,6 +4,7 @@
 
 ## Education
 - B.S. Computer Science --- Georgia Institute of Technology
+
 - GPA: 3.8
 
 ## Work/Experience
