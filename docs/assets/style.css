@@ -75,3 +75,40 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+/* Adjust Particles.js container styling */
+#particles-js {
+    position: fixed; /* Cover the entire viewport */
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+/* Position canvas absolutely within the particles container */
+#particles-js canvas {
+    position: absolute;
+}
+
+/* Content wrapper to ensure all content is above particles */
+.content-wrapper {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+/* Main content wrapper */
+.relative.z-10 {
+    position: relative;
+    z-index: 1;
+    pointer-events: auto;
+}
+
+/* Interactive elements */
+a, button, .nav-link, .project-card {
+    position: relative;
+    z-index: 2;
+    pointer-events: auto;
+}

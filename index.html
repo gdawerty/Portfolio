@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -105,15 +103,30 @@
             border-radius: 50%;
             background: radial-gradient(circle, rgba(56, 189, 248, 0.8) 0%, rgba(56, 189, 248, 0) 70%);
             position: fixed;
-            pointer-events: none;
+            /* pointer-events: none; */
             z-index: 9999;
             transform: translate(-50%, -50%);
             transition: width 0.2s, height 0.2s;
         }
+
+        /* Adjust Particles.js container styling */
+        #particles-js {
+            position: fixed; /* Ensure it covers the entire viewport */
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: 0; /* Lower than section headers but higher than background */
+            pointer-events: auto;
+        }
     </style>
 </head>
 <body class="bg-gray-900 text-white">
+    
     <div class="cursor-glow hidden md:block"></div>
+    
+    <!-- Add Particles.js background -->
+    <div id="particles-js"></div>
     
     <!-- Navigation -->
     <nav class="fixed w-full z-50 bg-gray-900 bg-opacity-90 backdrop-blur-sm">
@@ -309,8 +322,6 @@
                             <!-- Databricks SVG Logo -->
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" class="w-12 h-12 text-red-500 mb-2" fill="currentColor">
                                 <path d="M198.6 0L0 96.4l75.1 36.6L198.6 60l122.5 62.9 75.1-36.5L198.6 0zM0 134.9l75.1 36.5 123.5-62.8 122.5 62.9 75.1-36.6-197.6-99L0 134.9zM0 173.3l75.1 36.6 123.5-62.9 122.5 62.9 75.1-36.6-197.6-99L0 173.3zM0 211.7l75.1 36.6L198.6 185l122.5 63.3 75.1-36.6-197.6-99L0 211.7z"/>
-                            </svg>
-                            <span class="text-sm font-medium">Databricks</span>
                         </div>                        
                         <div class="tech-icon bg-gray-700 p-4 rounded-lg flex flex-col items-center">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="w-12 h-12 text-blue-300 mb-2">
@@ -497,7 +508,7 @@
                         <div class="flex items-center mb-4">
                             <div class="bg-green-100 p-2 rounded-lg mr-4">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="w-8 h-8 text-green-500">
-                                    <path fill="currentColor" d="M248 8C111.1 8 0 119.1 0 256s111.1 248 248 248 248-111.1 248-248S384.9 8 248 8zm100.7 364.9c-4.2 0-6.8-1.3-10.7-3.6-62.4-37.6-135-39.2-206.7-24.5-3.9 1-9 2.6-11.9 2.6-9.7 0-15.8-7.7-15.8-15.8 0-10.3 6.1-15.2 13.6-16.8 81.9-18.1 165.6-16.5 237 26.2 6.1 3.9 9.7 7.4 9.7 16.5s-7.1 15.4-15.2 15.4zm26.9-65.6c-5.2 0-8.7-2.3-12.3-4.2-62.5-37-155.7-51.9-238.6-29.4-4.8 1.3-7.4 2.6-11.9 2.6-10.7 0-19.4-8.7-19.4-19.4s5.2-17.8 15.5-20.7c27.8-7.8 56.2-13.6 97.8-13.6 64.9 0 127.6 16.1 177 45.5 8.1 4.8 11.3 11 11.3 19.7s-11 19.5-23.2 19.5zm31-76.2c-5.2 0-8.4-1.3-12.9-3.9-71.2-42.5-198.5-52.7-280.9-29.7-3.6 1-8.1 2.6-12.9 2.6-13.2 0-23.3-10.3-23.3-23.6 0-13.6 8.4-21.3 17.4-23.9 35.2-10.3 74.6-15.2 117.5-15.2 73 0 149.5 15.2 205.4 47.8 7.8 4.5 12.9 10.7 12.9 22.6 0 13.6-11 23.3-23.2 23.3z"/>
+                                    <path fill="currentColor" d="M248 8C111.1 8 0 119.1 0 256s111.1 248 248 248 248-111.1 248-248S384.9 8 248 8zm0 432c-79.5 0-144-64.5-144-144s64.5-144 144-144 144 64.5 144 144-64.5 144-144 144z"/>
                                 </svg>
                             </div>
                             <h3 class="text-xl font-bold text-sky-300">SpotifyRoasted</h3>
@@ -560,37 +571,37 @@
                 
                 <div class="project-card bg-gray-900 rounded-lg overflow-hidden shadow-lg">
                     <div class="p-6">
-                      <div class="flex items-center mb-4">
-                        <div class="bg-red-100 p-2 rounded-lg mr-4">
-                          <!-- Alert/lightbulb icon for insight and therapy -->
-                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-8 h-8 text-red-500">
-                            <path fill="currentColor" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM169.8 165.3c7.9-22.3 29.1-37.3 52.8-37.3h58.3c34.9 0 63.1 28.3 63.1 63.1c0 22.6-12.1 43.5-31.7 54.8L280 264.4c-.2 13-10.9 23.6-24 23.6c-13.3 0-24-10.7-24-24V250.5c0-8.6 4.6-16.5 12.1-20.8l44.3-25.4c4.7-2.7 7.6-7.7 7.6-13.1c0-8.4-6.8-15.1-15.1-15.1H222.6c-3.4 0-6.4 2.1-7.5 5.3l-.4 1.2c-4.4 12.5-18.2 19-30.6 14.6s-19-18.2-14.6-30.6l.4-1.2zM224 352a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z"/>
-                          </svg>
-                        </div>
-                        <h3 class="text-xl font-bold text-sky-300">AI Journaling Therapist</h3>
-                      </div>
-                      <p class="text-gray-400 mb-2">HackGT Project</p>
-                      <p class="text-gray-400 mb-4 text-sm">Fall 2024</p>
-                      <div class="flex flex-wrap gap-2 mb-4">
-                        <span class="bg-gray-700 text-gray-300 px-2 py-1 rounded-md text-xs">Next.JS</span>
-                        <span class="bg-gray-700 text-gray-300 px-2 py-1 rounded-md text-xs">HTML</span>
-                        <span class="bg-gray-700 text-gray-300 px-2 py-1 rounded-md text-xs">Tailwind CSS</span>
-                        <span class="bg-gray-700 text-gray-300 px-2 py-1 rounded-md text-xs">Firebase</span>
-                        <span class="bg-gray-700 text-gray-300 px-2 py-1 rounded-md text-xs">Flask</span>
-                        <span class="bg-gray-700 text-gray-300 px-2 py-1 rounded-md text-xs">VS Code</span>
-                      </div>
-                      <ul class="list-disc pl-5 text-gray-300 space-y-2 text-sm">
-                        <li>Full-stack developer in a hackathon project creating a journaling app with AI-driven emotional and mood analysis.</li>
-                        <li>Established a database for user data and integrated Google Authentication using Firebase.</li>
-                        <li>Utilized TypeScript for website design, Flask for the GPT AI model, and GitHub for collaboration.</li>
-                      </ul>
-                      <p class="mt-4 text-blue-400 hover:underline">
-                        <a href="https://devpost.com/software/empaithetic" target="_blank">Project Page</a> | 
-                        <a href="https://github.com/Techo10n/shaz" target="_blank">GitHub Repo</a>
-                      </p>
+                        <div class="flex items-center mb-4">
+                            <div class="bg-red-100 p-2 rounded-lg mr-4">
+                              <!-- Alert/lightbulb icon for insight and therapy -->
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-8 h-8 text-red-500">
+                                <path fill="currentColor" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM169.8 165.3c7.9-22.3 29.1-37.3 52.8-37.3h58.3c34.9 0 63.1 28.3 63.1 63.1c0 22.6-12.1 43.5-31.7 54.8L280 264.4c-.2 13-10.9 23.6-24 23.6c-13.3 0-24-10.7-24-24V250.5c0-8.6 4.6-16.5 12.1-20.8l44.3-25.4c4.7-2.7 7.6-7.7 7.6-13.1c0-8.4-6.8-15.1-15.1-15.1H222.6c-3.4 0-6.4 2.1-7.5 5.3l-.4 1.2c-4.4 12.5-18.2 19-30.6 14.6s-19-18.2-14.6-30.6l.4-1.2zM224 352a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z"/>
+                              </svg>
+                            </div>
+                            <h3 class="text-xl font-bold text-sky-300">AI Journaling Therapist</h3>
+                          </div>
+                          <p class="text-gray-400 mb-2">HackGT Project</p>
+                          <p class="text-gray-400 mb-4 text-sm">Fall 2024</p>
+                          <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-gray-700 text-gray-300 px-2 py-1 rounded-md text-xs">Next.JS</span>
+                            <span class="bg-gray-700 text-gray-300 px-2 py-1 rounded-md text-xs">HTML</span>
+                            <span class="bg-gray-700 text-gray-300 px-2 py-1 rounded-md text-xs">Tailwind CSS</span>
+                            <span class="bg-gray-700 text-gray-300 px-2 py-1 rounded-md text-xs">Firebase</span>
+                            <span class="bg-gray-700 text-gray-300 px-2 py-1 rounded-md text-xs">Flask</span>
+                            <span class="bg-gray-700 text-gray-300 px-2 py-1 rounded-md text-xs">VS Code</span>
+                          </div>
+                          <ul class="list-disc pl-5 text-gray-300 space-y-2 text-sm">
+                            <li>Full-stack developer in a hackathon project creating a journaling app with AI-driven emotional and mood analysis.</li>
+                            <li>Established a database for user data and integrated Google Authentication using Firebase.</li>
+                            <li>Utilized TypeScript for website design, Flask for the GPT AI model, and GitHub for collaboration.</li>
+                          </ul>
+                          <p class="mt-4 text-blue-400 hover:underline">
+                            <a href="https://devpost.com/software/empaithetic" target="_blank">Project Page</a> | 
+                            <a href="https://github.com/Techo10n/shaz" target="_blank">GitHub Repo</a>
+                          </p>
                     </div>
-                  </div>
-                  
+                </div>
+                
 
                 <div class="project-card bg-gray-900 rounded-lg overflow-hidden shadow-lg">
                     <div class="p-6">
@@ -666,3 +677,121 @@
                 </div>
                 
                 </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Include Particles.js library -->
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+<!-- Initialize Particles.js with hover repulse effect -->
+<script>
+    particlesJS("particles-js", {
+        "particles": {
+            "number": {
+                "value": 100,
+                "density": {
+                    "enable": true,
+                    "value_area": 800
+                }
+            },
+            "color": {
+                "value": "#ffffff"
+            },
+            "shape": {
+                "type": "circle",
+                "stroke": {
+                    "width": 0,
+                    "color": "#000000"
+                },
+                "polygon": {
+                    "nb_sides": 5
+                }
+            },
+            "opacity": {
+                "value": 0.5,
+                "random": false,
+                "anim": {
+                    "enable": false,
+                    "speed": 1,
+                    "opacity_min": 0.1,
+                    "sync": false
+                }
+            },
+            "size": {
+                "value": 3,
+                "random": true,
+                "anim": {
+                    "enable": false,
+                    "speed": 40,
+                    "size_min": 0.1,
+                    "sync": false
+                }
+            },
+            "line_linked": {
+                "enable": true,
+                "distance": 150,
+                "color": "#ffffff",
+                "opacity": 0.4,
+                "width": 1
+            },
+            "move": {
+                "enable": true,
+                "speed": 6,
+                "direction": "none",
+                "random": false,
+                "straight": false,
+                "out_mode": "out",
+                "bounce": false,
+                "attract": {
+                    "enable": false,
+                    "rotateX": 600,
+                    "rotateY": 1200
+                }
+            }
+        },
+        "interactivity": {
+            "detect_on": "canvas",
+            "events": {
+                "onhover": {
+                    "enable": true,
+                    "mode": "repulse" /* Add repulse effect on hover */
+                },
+                "onclick": {
+                    "enable": false,
+                    "mode": "push"
+                },
+                "resize": true
+            },
+            "modes": {
+                "grab": {
+                    "distance": 60,
+                    "line_linked": {
+                        "opacity": 1
+                    }
+                },
+                "bubble": {
+                    "distance": 50,
+                    "size": 40,
+                    "duration": 2,
+                    "opacity": 8,
+                    "speed": 3
+                },
+                "repulse": {
+                    "distance": 100, /* Adjust repulse distance */
+                    "duration": 0.4
+                },
+                "push": {
+                    "particles_nb": 4
+                },
+                "remove": {
+                    "particles_nb": 2
+                }
+            }
+        },
+        "retina_detect": true
+    });
+</script>
+</body>
+</html>
