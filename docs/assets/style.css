@@ -89,6 +89,7 @@ footer a:hover {
 /* Position canvas absolutely within the particles container */
 #particles-js canvas {
     position: absolute;
+    pointer-events: none; /* Only the particles canvas should ignore pointer events */
 }
 
 /* Content wrapper to ensure all content is above particles */
@@ -106,9 +107,15 @@ footer a:hover {
     pointer-events: auto;
 }
 
-/* Interactive elements */
+/* Ensure all links and buttons are above the particles and clickable */
 a, button, .nav-link, .project-card {
     position: relative;
-    z-index: 2;
+    z-index: 10;
     pointer-events: auto;
+}
+
+/* Ensure the pet photos section is above the particles background */
+.w-\[80\%\].mx-auto.mt-4 {
+    position: relative;
+    z-index: 2;
 }
