@@ -3,6 +3,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+    background-size: cover;
 }
 
 /* Flex Layout */
@@ -26,7 +28,7 @@ body {
 /* Text Styling */
 h2 {
     margin: 10px 0;
-    color: #333;
+    /* color: #333; */
 }
 
 ul {
@@ -76,21 +78,20 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* Adjust Particles.js container styling */
+/* Adjust Particles.js container styling
 #particles-js {
-    position: fixed; /* Cover the entire viewport */
+    position: fixed;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
-    z-index: 0;
-}
+    z-index: -1;
+} */
 
 /* Position canvas absolutely within the particles container */
-#particles-js canvas {
-    position: absolute;
-    pointer-events: none; /* Only the particles canvas should ignore pointer events */
-}
+/* #particles-js canvas {
+    pointer-events: none;
+} */
 
 /* Content wrapper to ensure all content is above particles */
 .content-wrapper {
@@ -118,4 +119,54 @@ a, button, .nav-link, .project-card {
 .w-\[80\%\].mx-auto.mt-4 {
     position: relative;
     z-index: 2;
+}
+
+#main-content {
+    position: relative;
+    z-index: 1;
+}
+
+nav {
+    position: relative;
+    z-index: 10;
+}
+
+/* Ensure nav and main content are above particles and clickable */
+nav, #main-content, .project-card, .contact-section {
+    position: relative;
+    z-index: 1;
+}
+
+/* All links and buttons in main content are above particles and clickable */
+#main-content a, #main-content button, #main-content .project-card a, #main-content .contact-section a {
+    position: relative;
+    z-index: 2;
+    pointer-events: auto;
+}
+
+/* Flare for mobile dropdown menu with transitions */
+#mobile-menu {
+    border-radius: 0 0 1rem 1rem;
+    box-shadow: 0 8px 24px rgba(56,189,248,0.15);
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(-20px);
+    pointer-events: none;
+    transition: opacity 0.4s cubic-bezier(0.4,0,0.2,1), transform 0.4s cubic-bezier(0.4,0,0.2,1);
+}
+#mobile-menu.show {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+#mobile-menu a {
+    transition: color 0.2s, background 0.2s, transform 0.2s;
+    border-radius: 0.5rem;
+    padding: 0.75rem 1rem;
+    margin: 0.1rem 0;
+}
+#mobile-menu a:hover {
+    background: linear-gradient(90deg, #38bdf8 0%, #0ea5e9 100%);
+    color: #fff;
+    transform: scale(1.05);
 }

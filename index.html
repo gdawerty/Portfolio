@@ -6,6 +6,7 @@
     <title>Aaron Luu | Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="docs/assets/style.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
         
@@ -126,7 +127,7 @@
     <div class="cursor-glow hidden md:block"></div>
     
     <!-- Add Particles.js background -->
-    <div id="particles-js"></div>
+    <!-- <div id="particles-js"></div> -->
     
     <!-- Navigation -->
     <nav class="fixed w-full z-50 bg-gray-900 bg-opacity-90 backdrop-blur-sm">
@@ -244,7 +245,7 @@
                         </div>
                     </div>
 
-                    <div class="w-[80%] mx-auto mt-4 relative z-20">
+                    <div class="w-[80%] mx-auto mt-4">
                         <div class="flex justify-between gap-4">
                           <div class="w-1/2 border-2 border-gray-500 rounded overflow-hidden">
                             <img 
@@ -438,7 +439,6 @@
                             <!-- Fake news icon -->
                             <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-red-600" fill="currentColor" viewBox="0 0 576 512">
                                 <path d="M576 240c0-26.5-21.5-48-48-48H493.5L394.7 79.2c-6-7.1-14.9-11.2-24.2-11.2h-85.5c-17.7 0-32 14.3-32 32v47.3l-79.7-56.9C144.4 82.2 128 89.7 128 104.6V208c0 4.3 1.2 8.5 3.4 12.1L160 256l-28.6 35.9c-2.2 3.6-3.4 7.8-3.4 12.1v103.4c0 14.9 16.4 22.4 31.3 13.8l79.7-56.9V432c0 17.7 14.3 32 32 32h85.5c9.3 0 18.2-4.1 24.2-11.2L493.5 320H528c26.5 0 48-21.5 48-48v-32z"/>
-                            </svg>
                         </div>
                         <div>
                             <h3 class="text-xl font-bold text-sky-300">FakeAI - Fake News Detection</h3>
@@ -614,7 +614,7 @@
                                 </svg>
                             </div>
                             <h3 class="text-xl font-bold text-sky-300">BAC Lock Box</h3>
-                        </div>
+                                                                                             </div>
                         <p class="text-gray-400 mb-2">Independent Hardware Project</p>
                         <p class="text-gray-400 mb-4 text-sm">Spring 2024</p>
                         <div class="flex flex-wrap gap-2 mb-4">
@@ -683,10 +683,10 @@
 </section>
 
 <!-- Include Particles.js library -->
-<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> -->
 
 <!-- Initialize Particles.js with hover repulse effect -->
-<script>
+<!-- <script>
     particlesJS("particles-js", {
         "particles": {
             "number": {
@@ -756,7 +756,7 @@
             "events": {
                 "onhover": {
                     "enable": true,
-                    "mode": "repulse" /* Add repulse effect on hover */
+                    "mode": "repulse" /* Add repulse effect on hover *\/
                 },
                 "onclick": {
                     "enable": false,
@@ -779,7 +779,7 @@
                     "speed": 3
                 },
                 "repulse": {
-                    "distance": 100, /* Adjust repulse distance */
+                    "distance": 100, /* Adjust repulse distance *\/
                     "duration": 0.4
                 },
                 "push": {
@@ -792,6 +792,25 @@
         },
         "retina_detect": true
     });
+</script> -->
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const menuToggle = document.getElementById('menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+    menuToggle.addEventListener('click', function() {
+      const isOpen = mobileMenu.classList.toggle('show');
+      if (isOpen) {
+        mobileMenu.classList.remove('hidden');
+      } else {
+        setTimeout(() => mobileMenu.classList.add('hidden'), 400); // Wait for transition
+      }
+    });
+    // Ensure menu is hidden initially
+    if (!mobileMenu.classList.contains('show')) {
+      mobileMenu.classList.add('hidden');
+    }
+  });
 </script>
 </body>
 </html>
